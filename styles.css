@@ -149,6 +149,7 @@ h1 {
 
     /* -----------------Section two---------------- */
     #section-two {
+        padding-top: 10px;
         height: 700px;
     }
     #section-two h1{
@@ -159,6 +160,7 @@ h1 {
         padding-right: 93px;
     }
     #section-two p{
+        margin-top: 10px;
         height: 98px;
         font-size: 18px;
         text-align: left;
@@ -180,6 +182,7 @@ h1 {
     }
     .redes{
         width: 156px;
+        margin-left: 60%;
     }
     .redes a{
         width: 44px;
