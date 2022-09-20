@@ -29,7 +29,7 @@ Users should be able to:
 ### Screenshot
 \
 ![](./tablet.png) \
-Preview for mobile
+Preview for tablet
 
 \
 \
