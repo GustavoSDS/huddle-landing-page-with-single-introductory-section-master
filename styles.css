@@ -14,10 +14,10 @@
 }
 
 body {
+    background-color: var(--Violet);
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: white;
-    background-color: var(--Violet);
     background-image: url('./images/bg-mobile.svg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -37,10 +37,12 @@ main {
 
 #logo-container {
     width: 180px;
+    height: 180px;
 }
 
 #mockup {
     width: 595px;
+    height: 420px;
 }
 
 /* -----------------Section two---------------- */
@@ -59,6 +61,7 @@ h1 {
     font-size: 31px;
     text-align: center;
     height: 280px;
+    color: white;
 }
 
 .btn-register {
@@ -111,16 +114,17 @@ h1 {
 
 /* -----------------Footer---------------- */
 .attribution {
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
+    color: var(--SoftMagenta);
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: white;
 }
 
 /* Media query for desktop  */
-@media only screen and (min-width:1284px) {
+@media only screen and (min-width:128px) {
     body{
         background-image: url(/images/bg-desktop.svg);
         background-size: unset;
